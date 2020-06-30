@@ -1,0 +1,22 @@
+body {
+    font-style: normal;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    background-color: rgb(236, 203, 203);
+    padding-top: 5%;
+    
+}
+#conteudo{
+    border-radius: 33px;
+}
+
+
+
+ h1 {
+    text-align: center;
+    margin: 30px 0 50px 0;
+}
+
+
+

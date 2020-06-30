@@ -1,0 +1,52 @@
+<!DOCTYPE* html>
+<html lang="PT-BR">
+<html>
+   <head>
+      <title>.:POP IT:.</title>
+	  <link rel="stylesheet" href="estilo.css"/>
+	  
+   </head>
+   <body>
+      <div id="conteudo">
+      <div id="cabecalho" style="color:yellow;">
+	     <h1>POP IT</h1>
+      </div>
+	  
+	  <div id="tituloDestaque">
+	     <h2>Baixe agora o ebook gratuito</h2>
+	  </div>
+	  
+	  <div>
+	     <div id="produto">
+	     <div class="produtoEbook">
+		    <img class="imgEbook" src="images/imageebook.png" hspace="30">
+			<p class="descDestaque">Descricao do produto</p>
+	     </div>
+		 
+	  <div>
+	     <div id="formulario">
+		 <div class="formularioDados">
+		 <h3>Preencha os campos abaixo para baixar seu Ebook</h3>
+         <form method="POST" action="https://smtl.gama.academy/leads/bfeebc04-b7e1-11ea-8228-89cff86db9a0">
+            <input
+               name="name"
+               type="text"
+               pattern="^\D{2,}\s[\D\s]{2,}$"
+               title="Digite seu nome completo"
+			   placeholder="Digite seu nome"
+               required> </br>
+            <input
+               name="email"
+               type="email"
+               title="Digite um email válido"
+			   placeholder="Digite seu e-mail"
+               required> </br>
+			   
+            <input name="redirectTo" type="hidden" value="https://popit.netlify.app/thankyoupage/thankyou.html" />
+            <input name="debugMode" type="hidden" value="true" />
+            <input type="submit" />
+         </form>
+	  </div>
+   </body>
+
+</html>
