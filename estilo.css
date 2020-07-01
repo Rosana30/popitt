@@ -6,30 +6,39 @@ body {
 #cabecalho { 
     border: black 1px solid; 
     background-color: grey; 
-	margin-bottom: 20px;
 	text-align: center;
 	font-size: 30px;
 }
 
 #tituloDestaque {
 	font-family: Arial, Helvetica, sans-serif;
-	margin-left: 80px;
 	text-shadow: gray 1px 1px 5px;
-}
-	
-#produto {
-    display: flex;
+	text-align: center;
 }
 
 .descDestaque {
-	margin-left: 80px;
+	text-align: center;
 }
 
 .imgEbook {
-	margin-left: 80px;
+	width: 100%;
+}
 
-h3 {
-	font-size: 20px;
-    margin-top: 60px;
+.frase {
+	font-size: 15px;
+    margin-top: 5px;
+	text-align: center;
+}
+
+.container {
+	background-color: gray;
+}
+
+.formulario {
+	text-align: center;
+}
+
+#formularioDados {
+	text-align: center;
 }
 	
